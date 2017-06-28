@@ -18,4 +18,5 @@
 - Bootstrap -> formatting
 
 ## Refactor TODDS:
+- Add full_name method for users
 + Refactor user association
