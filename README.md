@@ -1,24 +1,25 @@
-#Overtime App
+Overtime App
 
-##Key requirement: company needs documentation that salaried employees did or did not get overtime each week
+Key requirement: company needs documentation that salaried employees did or did not get overtime each week
 
-##Models
--x Post -> date:date rationale:text
--x User -> Devise
--x AdminUser -> STI
+Models
 
-##Features:
--Approval Workflow
--SMS Sending -> link to approval or overtime input
--Administrate admin dashboard
--Block non admin and guest users
--Email summary to managers for approval
--Needs to be documented if employee did not log overtime
+x Post -> date:date rationale:text
+x User -> Devise
+x AdminUser -> STI
+Features:
 
-##UI:
--x Bootstrap -> formatting
--Icons from Font Awesome
--xUpdate the styles for forms
+Approval Workflow
+SMS Sending -> link to approval or overtime input
+x Administrate admin dashboard
+x Block non admin and guest users
+Email summary to managers for approval
+Needs to be documented if employee did not log overtime
+UI:
 
-##Refactor TODOS:
--Refactor user association integration test in post_spec
+x Bootstrap -> formatting
+Icons from Font Awesome
+x Update the styles for forms
+Refactor TODOS:
+
+Refactor user association integration test in post_spec
