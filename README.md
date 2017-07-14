@@ -9,20 +9,17 @@ Models
 -x AdminUser -> STI
 -Features:
 
-Approval Workflow
--SMS Sending -> link to approval or overtime input
+- Approval Workflow
+- SMS Sending -> link to approval or overtime input
 -x Administrate admin dashboard
 -x Block non admin and guest users
--Email summary to managers for approval
--Needs to be documented if employee did not log overtime
+- Email summary to managers for approval
+- Needs to be documented if employee did not log overtime
 UI:
 
 -x Bootstrap -> formatting
 -Icons from Font Awesome
 -x Update the styles for forms
--Refactor TODOS:
 
--Refactor user association integration test in post_spec
+-Refactor TODOS:
 -Refactor posts/_form for admin user with status
--Fix post_spec.rb:82 to use factories
--Fixed post_spec.rb:52 to have correct user refrence and require update 
