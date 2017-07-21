@@ -1,3 +1,10 @@
-.employee-blocks {
+/*.employee-blocks {
 	margin: 45px;
+}*/
+
+.employee-blocks {
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
+
+/*https://rails.devcamp.com/rails-bdd-tdd-course/monitoring-dashboard-employees/implementing-confirmation-buttons-employees*/
